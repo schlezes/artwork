@@ -1,0 +1,73 @@
+body {
+	color: #ffffff;
+	width: 100%;
+	height: auto;
+	margin: auto;
+	font-style: oblique;
+	background-color: #060516;
+	background-image: url('./img/sky.png');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	visibility: collapse;
+}
+.flex {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	list-style: none;
+	flex-wrap: nowrap;
+}
+.footer-inline {
+	display: inline;
+
+}
+.space-evenly {
+	justify-content: space-between;
+}
+ul {
+	list-style-type: none;
+}
+body {
+	font-style: oblique;
+}
+.center {
+	margin: auto;
+}
+.cent {
+	text-align: center;
+}
+h1 {
+	font-size: xx-large;
+}
+.off {
+	visibility: collapse;
+	height: 0;
+	width: 0;
+}
+.on {
+	visibility: visible;
+}
+.left {
+	padding-left: 0;
+}
+.yes-wrap {
+	flex-wrap: wrap;
+}
+/* radius for images */
+.radius {
+	border: 1px solid transparent;
+	border-radius: 10px;
+}
+
+	/* artwork */
+
+.space-around {
+	justify-content: space-around;
+}
+.center {
+	justify-content: center; 
+}
+figure {
+	margin-top: 0;
+}
